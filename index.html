@@ -34,16 +34,67 @@
                 <input type="date" id="nacimiento">
             </fieldset>
             <fieldset>
-                <legend>Interéses</legend>
+                <legend>Conocimientos y áreas de interés</legend>
+
+                <label for="area2">¿Qué materia le interesa?</label>
+                <select name="area" id="area" required>
+                    <option selected disabled>Seleccione</option>
+                    <option value="marketing">Marketing digital</option>
+                    <option value="diseno">Artes</option>
+                    <option value="informatica">Programación</option>
+                </select>
 
                 <label for="area">Área de interés</label>
                 <select name="area" id="area" required>
-                    <option selected disabled>Seleccione</option>
-                    <option value="marketing">Marketing</option>
-                    <option value="diseno">Diseño</option>
-                    <option value="informatica">Informática</option>
+                    <option value="seleccion" selected disabled>Seleccione una opción</option>
+                    <optgroup label="Marketing">
+                        <option value="digital">Marketing digital</option>
+                        <option value="rrss">Redes Sociales</option>
+                        <option value="ventas">Ventas</option>
+                    </optgroup>
+                    <optgroup label="Diseño">
+                        <option value="foto">Fotografía</option>
+                        <option value="animacion">Animación</option>
+                        <option value="dibujo">Dibujo</option>
+                    </optgroup>
+                    <optgroup label="Informatica">
+                        <option value="code">Programación</option>
+                        <option value="html">Html y CSS</option>
+                        <option value="hardware">Ensamble de hardware</option>
+                    </optgroup>
                 </select>
+
+                <label for="conocimiento">¿Cuál es su nivel de conocimiento?</label>
+
+                <input type="radio" name="opcion" id="avanzado">
+                <label for="avanzado">Avanzado</label>
+
+                <input type="radio" name="opcion" id="intermedio">
+                <label for="intermedio">Intermedio</label>
+
+                <input type="radio" name="opcion" id="basico">
+                <label for="basico">Básico</label>
+
+                <input type="radio" name="opcion" id="noob">
+                <label for="noob">Novato</label>
+
+                <label for="checkbox">Materias que deseo aprender:</label>
+                <input type="checkbox" name="front" id="front">
+                <label for="front">Frontend</label>
+                <input type="checkbox" name="back" id="back">
+                <label for="back">Backend</label>
+                <input type="checkbox" name="ads" id="ads">
+                <label for="ads">Facebook y Google ads</label>
+                <input type="checkbox" name="modelado" id="modelado">
+                <label for="modelado">Modelado 3D</label>
+                <input type="checkbox" name="ai" id="ai">
+                <label for="ai">Inteligencia artificial</label>
+
+                <label for="comments">Queremos leer tus comentarios y sugerencias</label>
+                <textarea name="comments" id="comments" placeholder="Hola, mi comentario/sugerencia es la siguiente..."></textarea>
             </fieldset>
+            <button type="submit">Enviar</button>
+            <h2>Nuestras redes sociales</h2>
         </form>
     </main>
 </body>

@@ -27,24 +27,23 @@ body .grid header {
   width: 100%;
 }
 body .grid header h1 {
-  border: 1px solid #121212;
   color: #011936;
   font-family: "Baloo 2", cursive;
   text-align: center;
   width: 100%;
 }
 body .grid header p {
-  border: 1px solid #121212;
   color: rgba(255, 255, 255, 0.65);
   text-align: center;
   width: 100%;
 }
 body .grid form {
+  border: 1px solid #920000;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 16px;
   height: 60vh;
   overflow: hidden;
-  width: 50%;
+  width: 60%;
 }
 
 /*# sourceMappingURL=index.css.map */
