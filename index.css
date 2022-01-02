@@ -19,11 +19,12 @@ body {
 body .grid {
   display: grid;
   grid-gap: 1rem;
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: 5rem auto;
   height: 100vh;
 }
 body .grid header {
   border: 1px solid #121212;
+  height: 5rem;
   width: 100%;
 }
 body .grid header h1 {
@@ -38,12 +39,33 @@ body .grid header p {
   width: 100%;
 }
 body .grid form {
-  border: 1px solid #920000;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 16px;
-  height: 60vh;
+  height: 80vh;
+  margin: 0 auto;
   overflow: hidden;
   width: 60%;
+}
+body .grid form fieldset {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+}
+body .grid form fieldset legend {
+  color: #011936;
+  font-family: "Baloo 2", cursive;
+  font-size: 1.5rem;
+  margin: 1rem auto 0 auto;
+}
+body .grid form fieldset input[type=text] {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 0.3rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  width: 80%;
 }
 
 /*# sourceMappingURL=index.css.map */
