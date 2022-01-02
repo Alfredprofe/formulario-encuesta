@@ -33,33 +33,37 @@
             <fieldset>
                 <legend>Conocimientos y áreas de interés</legend>
 
-                <label for="area2">¿Qué materia le interesa?</label>
-                <select name="area" id="area" required>
-                    <option selected disabled>Seleccione</option>
-                    <option value="marketing">Marketing digital</option>
-                    <option value="diseno">Artes</option>
-                    <option value="informatica">Programación</option>
-                </select>
+                <div class="one">
+                    <label for="area2">Materia de interés</label>
+                    <select name="area" id="area" required>
+                        <option selected disabled>Seleccione...</option>
+                        <option value="marketing">Marketing digital</option>
+                        <option value="diseno">Artes</option>
+                        <option value="informatica">Programación</option>
+                    </select>
+                </div>
 
-                <label for="area">Área de interés</label>
-                <select name="area" id="area" required>
-                    <option value="seleccion" selected disabled>Seleccione una opción</option>
-                    <optgroup label="Marketing">
-                        <option value="digital">Marketing digital</option>
-                        <option value="rrss">Redes Sociales</option>
-                        <option value="ventas">Ventas</option>
-                    </optgroup>
-                    <optgroup label="Diseño">
-                        <option value="foto">Fotografía</option>
-                        <option value="animacion">Animación</option>
-                        <option value="dibujo">Dibujo</option>
-                    </optgroup>
-                    <optgroup label="Informatica">
-                        <option value="code">Programación</option>
-                        <option value="html">Html y CSS</option>
-                        <option value="hardware">Ensamble de hardware</option>
-                    </optgroup>
-                </select>
+                <div class="two">
+                    <label for="area">Materia de interés</label>
+                    <select name="area" id="area" required>
+                        <option value="seleccion" selected disabled>Seleccione una opción</option>
+                        <optgroup label="Marketing">
+                            <option value="digital">Marketing digital</option>
+                            <option value="rrss">Redes Sociales</option>
+                            <option value="ventas">Ventas</option>
+                        </optgroup>
+                        <optgroup label="Diseño">
+                            <option value="foto">Fotografía</option>
+                            <option value="animacion">Animación</option>
+                            <option value="dibujo">Dibujo</option>
+                        </optgroup>
+                        <optgroup label="Informatica">
+                            <option value="code">Programación</option>
+                            <option value="html">Html y CSS</option>
+                            <option value="hardware">Ensamble de hardware</option>
+                        </optgroup>
+                    </select>
+                </div>
 
                 <label for="conocimiento">¿Cuál es su nivel de conocimiento?</label>
 
