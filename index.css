@@ -67,19 +67,29 @@ body .grid form fieldset input[type=text] {
   padding: 0.5rem 1rem;
   width: 80%;
 }
-body .grid form fieldset .one {
+body .grid form fieldset .one, body .grid form fieldset .two {
+  border: 1px solid #1212ab;
   margin: 0 auto;
   width: 80%;
 }
-body .grid form fieldset .one label {
+body .grid form fieldset .one label, body .grid form fieldset .two label {
   margin: 0 1rem 0 0;
 }
-body .grid form fieldset .one select {
+body .grid form fieldset .one select, body .grid form fieldset .two select {
   background: rgba(255, 255, 255, 0.3);
   border-radius: 0.3rem;
   color: rgba(17, 17, 17, 0.5);
   margin: 0.5rem 0;
   padding: 0.5rem 1rem;
+}
+body .grid form fieldset .three {
+  border: 1px solid #1212ab;
+  margin: 0 auto;
+  width: 80%;
+}
+body .grid form fieldset .three label[for=conocimiento] {
+  display: inline-block;
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.css.map */

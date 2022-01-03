@@ -44,7 +44,7 @@
                 </div>
 
                 <div class="two">
-                    <label for="area">Materia de interés</label>
+                    <label for="area">Sub materia de interés</label>
                     <select name="area" id="area" required>
                         <option value="seleccion" selected disabled>Seleccione una opción</option>
                         <optgroup label="Marketing">
@@ -65,19 +65,24 @@
                     </select>
                 </div>
 
-                <label for="conocimiento">¿Cuál es su nivel de conocimiento?</label>
+                <div class="three">
+                    <label for="conocimiento">¿Cuál es su nivel de conocimiento?</label>
 
-                <input type="radio" name="opcion" id="avanzado">
-                <label for="avanzado">Avanzado</label>
+                    <label for="avanzado">
+                        <input type="radio" name="opcion" id="avanzado">
+                        <span class="rdo"></span>
+                        <span>Avanzado</span>
+                    </label>
 
-                <input type="radio" name="opcion" id="intermedio">
-                <label for="intermedio">Intermedio</label>
+                    <input type="radio" name="opcion" id="intermedio">
+                    <label for="intermedio">Intermedio</label>
 
-                <input type="radio" name="opcion" id="basico">
-                <label for="basico">Básico</label>
+                    <input type="radio" name="opcion" id="basico">
+                    <label for="basico">Básico</label>
 
-                <input type="radio" name="opcion" id="noob">
-                <label for="noob">Novato</label>
+                    <input type="radio" name="opcion" id="noob">
+                    <label for="noob">Novato</label>
+                </div>
 
                 <label for="checkbox">Materias que deseo aprender:</label>
                 <input type="checkbox" name="front" id="front">
