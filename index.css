@@ -19,11 +19,11 @@ body {
 body .grid {
   display: grid;
   grid-gap: 1rem;
-  grid-template-rows: 5rem auto;
+  grid-template-rows: auto auto;
 }
 body .grid header {
-  border: 1px solid #121212;
   height: 5rem;
+  margin: 3rem 0 0 0;
   width: 100%;
 }
 body .grid header h1 {
@@ -40,8 +40,8 @@ body .grid header p {
 body .grid form {
   background: rgba(255, 255, 255, 0.3);
   border-radius: 16px;
-  height: 200vh;
-  margin: 0 auto;
+  height: auto;
+  margin: 3rem auto;
   overflow: hidden;
   width: 60%;
 }
@@ -57,7 +57,7 @@ body .grid form fieldset legend {
   color: #011936;
   font-family: "Baloo 2", cursive;
   font-size: 1.5rem;
-  margin: 1rem auto 0 auto;
+  margin: 3rem auto 0 auto;
 }
 body .grid form fieldset input[type=text] {
   background: rgba(255, 255, 255, 0.3);
@@ -67,7 +67,6 @@ body .grid form fieldset input[type=text] {
   width: 80%;
 }
 body .grid form fieldset .one, body .grid form fieldset .two, body .grid form fieldset .three, body .grid form fieldset .four, body .grid form fieldset .five {
-  border: 1px solid #1212ab;
   margin: 1rem auto;
   width: 80%;
 }
@@ -80,6 +79,7 @@ body .grid form fieldset .one select, body .grid form fieldset .one textarea, bo
   color: rgba(17, 17, 17, 0.5);
   margin: 0.5rem 0;
   padding: 0.5rem 1rem;
+  width: 100%;
 }
 body .grid form fieldset .one label[for=conocimiento], body .grid form fieldset .one label[for=avanzado], body .grid form fieldset .one label[for=intermedio], body .grid form fieldset .one label[for=basico], body .grid form fieldset .one label[for=noob], body .grid form fieldset .one label[for=checkbox], body .grid form fieldset .one label[for=front], body .grid form fieldset .one label[for=back], body .grid form fieldset .one label[for=ads], body .grid form fieldset .one label[for=modelado], body .grid form fieldset .one label[for=ai], body .grid form fieldset .one label[for=comments], body .grid form fieldset .two label[for=conocimiento], body .grid form fieldset .two label[for=avanzado], body .grid form fieldset .two label[for=intermedio], body .grid form fieldset .two label[for=basico], body .grid form fieldset .two label[for=noob], body .grid form fieldset .two label[for=checkbox], body .grid form fieldset .two label[for=front], body .grid form fieldset .two label[for=back], body .grid form fieldset .two label[for=ads], body .grid form fieldset .two label[for=modelado], body .grid form fieldset .two label[for=ai], body .grid form fieldset .two label[for=comments], body .grid form fieldset .three label[for=conocimiento], body .grid form fieldset .three label[for=avanzado], body .grid form fieldset .three label[for=intermedio], body .grid form fieldset .three label[for=basico], body .grid form fieldset .three label[for=noob], body .grid form fieldset .three label[for=checkbox], body .grid form fieldset .three label[for=front], body .grid form fieldset .three label[for=back], body .grid form fieldset .three label[for=ads], body .grid form fieldset .three label[for=modelado], body .grid form fieldset .three label[for=ai], body .grid form fieldset .three label[for=comments], body .grid form fieldset .four label[for=conocimiento], body .grid form fieldset .four label[for=avanzado], body .grid form fieldset .four label[for=intermedio], body .grid form fieldset .four label[for=basico], body .grid form fieldset .four label[for=noob], body .grid form fieldset .four label[for=checkbox], body .grid form fieldset .four label[for=front], body .grid form fieldset .four label[for=back], body .grid form fieldset .four label[for=ads], body .grid form fieldset .four label[for=modelado], body .grid form fieldset .four label[for=ai], body .grid form fieldset .four label[for=comments], body .grid form fieldset .five label[for=conocimiento], body .grid form fieldset .five label[for=avanzado], body .grid form fieldset .five label[for=intermedio], body .grid form fieldset .five label[for=basico], body .grid form fieldset .five label[for=noob], body .grid form fieldset .five label[for=checkbox], body .grid form fieldset .five label[for=front], body .grid form fieldset .five label[for=back], body .grid form fieldset .five label[for=ads], body .grid form fieldset .five label[for=modelado], body .grid form fieldset .five label[for=ai], body .grid form fieldset .five label[for=comments] {
   display: inline-block;
@@ -103,6 +103,37 @@ body .grid form fieldset button {
   margin: 0 auto;
   padding: 0.9rem 0;
   width: 80%;
+}
+body .grid form fieldset button:hover {
+  background: #04AA6D;
+  color: #F8FFE5;
+}
+body .grid form .rrss {
+  align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3rem auto;
+  width: 72%;
+}
+body .grid form .rrss h2 {
+  font-family: "Baloo 2", cursive;
+  font-size: 2rem;
+  height: 3rem;
+  margin: 3rem 0 2rem 0;
+  text-align: center;
+  width: 100%;
+}
+body .grid form .rrss a {
+  color: #121212;
+  height: 3rem;
+  margin: 0 1rem;
+}
+body .grid form .rrss a i {
+  font-size: 3rem;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=index.css.map */
