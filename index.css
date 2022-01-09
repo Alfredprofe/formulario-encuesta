@@ -20,7 +20,6 @@ body .grid {
   display: grid;
   grid-gap: 1rem;
   grid-template-rows: 5rem auto;
-  height: 100vh;
 }
 body .grid header {
   border: 1px solid #121212;
@@ -41,7 +40,7 @@ body .grid header p {
 body .grid form {
   background: rgba(255, 255, 255, 0.3);
   border-radius: 16px;
-  height: 150vh;
+  height: 200vh;
   margin: 0 auto;
   overflow: hidden;
   width: 60%;
@@ -67,29 +66,43 @@ body .grid form fieldset input[type=text] {
   padding: 0.5rem 1rem;
   width: 80%;
 }
-body .grid form fieldset .one, body .grid form fieldset .two {
+body .grid form fieldset .one, body .grid form fieldset .two, body .grid form fieldset .three, body .grid form fieldset .four, body .grid form fieldset .five {
   border: 1px solid #1212ab;
-  margin: 0 auto;
+  margin: 1rem auto;
   width: 80%;
 }
-body .grid form fieldset .one label, body .grid form fieldset .two label {
+body .grid form fieldset .one label, body .grid form fieldset .two label, body .grid form fieldset .three label, body .grid form fieldset .four label, body .grid form fieldset .five label {
   margin: 0 1rem 0 0;
 }
-body .grid form fieldset .one select, body .grid form fieldset .two select {
+body .grid form fieldset .one select, body .grid form fieldset .one textarea, body .grid form fieldset .two select, body .grid form fieldset .two textarea, body .grid form fieldset .three select, body .grid form fieldset .three textarea, body .grid form fieldset .four select, body .grid form fieldset .four textarea, body .grid form fieldset .five select, body .grid form fieldset .five textarea {
   background: rgba(255, 255, 255, 0.3);
   border-radius: 0.3rem;
   color: rgba(17, 17, 17, 0.5);
   margin: 0.5rem 0;
   padding: 0.5rem 1rem;
 }
-body .grid form fieldset .three {
-  border: 1px solid #1212ab;
-  margin: 0 auto;
-  width: 80%;
-}
-body .grid form fieldset .three label[for=conocimiento] {
+body .grid form fieldset .one label[for=conocimiento], body .grid form fieldset .one label[for=avanzado], body .grid form fieldset .one label[for=intermedio], body .grid form fieldset .one label[for=basico], body .grid form fieldset .one label[for=noob], body .grid form fieldset .one label[for=checkbox], body .grid form fieldset .one label[for=front], body .grid form fieldset .one label[for=back], body .grid form fieldset .one label[for=ads], body .grid form fieldset .one label[for=modelado], body .grid form fieldset .one label[for=ai], body .grid form fieldset .one label[for=comments], body .grid form fieldset .two label[for=conocimiento], body .grid form fieldset .two label[for=avanzado], body .grid form fieldset .two label[for=intermedio], body .grid form fieldset .two label[for=basico], body .grid form fieldset .two label[for=noob], body .grid form fieldset .two label[for=checkbox], body .grid form fieldset .two label[for=front], body .grid form fieldset .two label[for=back], body .grid form fieldset .two label[for=ads], body .grid form fieldset .two label[for=modelado], body .grid form fieldset .two label[for=ai], body .grid form fieldset .two label[for=comments], body .grid form fieldset .three label[for=conocimiento], body .grid form fieldset .three label[for=avanzado], body .grid form fieldset .three label[for=intermedio], body .grid form fieldset .three label[for=basico], body .grid form fieldset .three label[for=noob], body .grid form fieldset .three label[for=checkbox], body .grid form fieldset .three label[for=front], body .grid form fieldset .three label[for=back], body .grid form fieldset .three label[for=ads], body .grid form fieldset .three label[for=modelado], body .grid form fieldset .three label[for=ai], body .grid form fieldset .three label[for=comments], body .grid form fieldset .four label[for=conocimiento], body .grid form fieldset .four label[for=avanzado], body .grid form fieldset .four label[for=intermedio], body .grid form fieldset .four label[for=basico], body .grid form fieldset .four label[for=noob], body .grid form fieldset .four label[for=checkbox], body .grid form fieldset .four label[for=front], body .grid form fieldset .four label[for=back], body .grid form fieldset .four label[for=ads], body .grid form fieldset .four label[for=modelado], body .grid form fieldset .four label[for=ai], body .grid form fieldset .four label[for=comments], body .grid form fieldset .five label[for=conocimiento], body .grid form fieldset .five label[for=avanzado], body .grid form fieldset .five label[for=intermedio], body .grid form fieldset .five label[for=basico], body .grid form fieldset .five label[for=noob], body .grid form fieldset .five label[for=checkbox], body .grid form fieldset .five label[for=front], body .grid form fieldset .five label[for=back], body .grid form fieldset .five label[for=ads], body .grid form fieldset .five label[for=modelado], body .grid form fieldset .five label[for=ai], body .grid form fieldset .five label[for=comments] {
   display: inline-block;
+  margin: 0.3rem 0;
   width: 100%;
+}
+body .grid form fieldset .one textarea, body .grid form fieldset .two textarea, body .grid form fieldset .three textarea, body .grid form fieldset .four textarea, body .grid form fieldset .five textarea {
+  brackground: rgba(255, 255, 255, 0.3);
+  border-radius: 0.3rem;
+  color: rgba(17, 17, 17, 0.5);
+  height: 9rem;
+  resize: none;
+  width: 100%;
+}
+body .grid form fieldset button {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 0.9rem 0;
+  width: 80%;
 }
 
 /*# sourceMappingURL=index.css.map */
